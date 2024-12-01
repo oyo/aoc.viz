@@ -1,0 +1,22 @@
+{
+  "name": "aoc.viz",
+  "version": "0.0.1",
+  "description": "Advent of Code Vizualizations",
+  "author": "Martin Rohrmeier <roryphant@gmail.com> (oyo)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0"
+  },
+  "dependencies": {
+    "voxli": "^0.1.3"
+  }
+}
